@@ -1,0 +1,72 @@
+body{
+  flex: initial;
+
+  align-self: center;
+position: fixed;
+  color: black
+}
+.container{
+  width:250px;
+margin: center;
+  columns: 1;
+  height:40%;
+}
+.card{
+  /*columns: 1;*/
+  width: 250px;
+  height: 40%;
+  word-wrap: normal;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 1px #999;
+
+}
+
+.bottom {
+  /*background:grey;*/
+
+    border-color: grey transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 7px 7px;
+    bottom: 281px;
+    content: "";
+    position: absolute;
+    left: 182px;
+}
+.box{
+  text-align: center;
+  width:252px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: grey;
+
+}
+.progress {
+  background-color: orange;
+  width: 100%;
+}
+.white{
+  color: white;
+}
+.block{
+  display: flex;
+}
+input{
+  height:25px;
+}
+.inline{
+  flex:1;
+
+  align-items: center;
+  /*align-content: stretch;*/
+
+}
+button{
+  box-shadow: 0 1px #999;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
